@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Metronome</title>
+    <link rel="icon" type="image/x-icon" href="met.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Metronome</h1>
+    <div class="container">
+        <div class="metronome">
+            <p>BPM:<input type="number" id="bpm" min="30" max="300" value="120"></p>
+            <button id="startStopButton">Start</button>
+            <select id="subdivision">
+                <option value="1">Quarter Note</option>
+                <option value="2">8th Note</option>
+            </select>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

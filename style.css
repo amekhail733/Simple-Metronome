@@ -1,0 +1,28 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+h1{
+    text-align: center;
+}
+body{
+    background-color: skyblue;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.metronome {
+    background-color: rgba(130, 130, 130, 0.85);
+    width: 300px;
+    height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+    flex-direction: column;
+}
+#bpm{
+    width: 100px;
+    padding:5px;
+    font-size: 1rem;
+}
